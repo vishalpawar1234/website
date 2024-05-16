@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title> Product & Services</title>
+  <link rel="stylesheet" href="product.css">
+  <script defer src="product.js"></script>
+</head>
+
+<body>
+  <section>
+    <div class="words">
+      <ul>
+        <li>Media</li>
+        <li>Contact Us</li>
+        <li>Investors</li>
+        <li>Group Websites</li>
+      </ul>
+    </div>
+    <div class="logo">
+      <img src="images/logo (1).png" width="200px" height="70px">
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="aboutUs">About Us
+        </button>
+      
+        <div class="dropdown-content">
+          <a href="overwive.html">Overview</a>
+          <a href="Awards.html">Awards&Recognition</a>
+          <a href="#">Technology For Growth</a>
+        </div>
+      </div>
+      <a href="Business.html">Our Businesses</a>
+      <a href="product.html">Product And Services</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="CAREERS">Careers
+        </button>
+     
+        <div class="dropdown-content">
+          <a href="Career.html">Overview</a>
+          <a href="Career.html">Current Openings</a>
+          <a href="Career.html">Campus Recruitment</a>
+        </div>
+      </div>
+      <div class="search-container" id="searchContainer">
+        <input type="text" placeholder="search..." id="searchInput">
+        <button type="submit" onclick="toggleSearch()"><i id="searchIcon" class="fa fa-search"></i></button>
+        <button class="cancel" id="cancelButton" style="display: none;" onclick="cancelSearch()"><i
+            class="fa fa-times"></i></button>
+
+      </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="row mainsection">
+
+
+      <!-- this is for title only -->
+      <div class="row collapse pageTitle">
+        <div class="rowContent">
+          <h1>Product And Services</h1>
+        </div>
+      </div>
+      <!-- This is for main contents of page -->
+      <div class="row collapse" style="font-size: 50;">
+        <div class="rowContent">
+          <div class="textListProducts">
+            <div class="flex-container">
+              <li id="list">
+                <h2>Hydraulics</h2>
+                <hr />
+                <ul id="innerul">
+                  <li id="lines">Hydraulic cylanders</li>
+                  <li id="lines">Swivel / Rotary Joints</li>
+                  <li id="lines">High Torque Low Speed Motors</li>
+                  <li id="lines">Radial Piston Pumps</li>
+                  <li id="lines">Customised Hydraulic System</li>
+                </ul>
+              </li>
+              <li id="list">
+                <h2>Heavy Engineering</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Process Plant</li>
+                  <li id="lines">Nuclear Power Plant</li>
+                  <li id="lines">Modification, Revamp and Upgrade</li>
+                  <li id="lines">Special Fabrication Unit</li>
+                  <li id="lines">Greem Portfolio</li>
+                </ul>
+              </li>
+              <li id="list">
+                <h2>Minerals And Metals</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Minerals And Metals</li>
+                </ul>
+              </li>
+            </div>
+            <div class="flex-container">
+              <li id="list">
+                <h2>Semiconductors</h2>
+                <hr />
+                <ul>
+                  <li id="lines">L&T Semiconductors Technologies</li>
+                </ul>
+
+              </li>
+              <li id="list">
+                <h2>Plant</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Coal based Power Plant</li>
+                  <li id="lines">Gas Based Power Plant</li>
+                </ul>
+              </li>
+              <li id="list">
+                <h2>Hydrocarban</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Offshore </li>
+                  <li id="lines">Onshore EPC</li>
+                  <li id="lines">Modular Fabrication</li>
+                  <li id="lines">AdVent</li>
+                  <li id="lines">Asset Management</li>
+                  <li id="lines">Offshore Wind</li>
+                  <li id="lines"></li>
+                </ul>
+              </li>
+            </div>
+            <div class="flex-container">
+              <li id="list">
+                <h2>Valves</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Gate,Globe & Valves-Bolted Bonnet</li>
+                  <li id="lines">Gate, Globe & Valves-Pressure-seal</li>
+                  <li id="lines">Trunnion-mounted Boll valves</li>
+                  <li id="lines">Triple-offset Butterfly valves</li>
+                </ul>
+              </li>
+              <li id="list">
+                <h2>Rubber Processing Machinery</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Mechancal Tyre curing Presses</li>
+                  <li id="lines">Hydraulic Tyre curing Presses</li>
+                  <li id="lines">Tyre Building Machines</li>
+                  <li id="lines">Auxiliry Equipment</li>
+                  <li id="lines">Spares</li>
+                  <li id="lines">Tube curing Presses</li>
+                  <li id="lines">Bladder Curing Presses</li>
+                </ul>
+              </li>
+              <li id="list">
+                <h2>Ship Building</h2>
+                <hr />
+                <ul>
+                  <li id="lines">Ship Repaire, Refits </li>
+                  <li id="lines">Defence ShipBuilding</li>
+                  <li id="lines">Commerical ShipBuilding</li>
+                </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer started -->
+    <footer>
+      <div class="footer-div">
+        <div class="about-us">
+          <h3><a>About Finite4</a></h3>
+
+          <ul>
+            <li>Overview</li>
+            <li>Technology for Growth</li>
+            <li>Awards & Recognition</li>
+            <li>Leadership</li>
+            <li>Vision</li>
+            <li>Facilities</li>
+            <li>Corporate Policies</li>
+            <li>Video Gallery</li>
+            <li>Experience Centre - Pune</li>
+          </ul>
+        </div>
+
+        <div class="about-us">
+          <h3><a>Sustainability</a></h3>
+
+          <ul>
+            <li>Overview</li>
+            <li>Environment</li>
+            <li>Health & Safety</li>
+            <li>Community Engagement</li>
+            <li>Green Businesses</li>
+            <li>Sustainability Updates</li>
+            <li>Integrated Report</li>
+          </ul>
+        </div>
+
+        <div class="about-us">
+          <h3><a>Careers</a></h3>
+
+          <ul>
+            <li>Overview</li>
+            <li>Current Openings</li>
+            <li>Learning & Development</li>
+            <li>Diversity, Equity & Inclusion</li>
+            <li>Recruitment Caution</li>
+            <li>Campus Recruitment</li>
+            <li>Renew: Career Re-entry for Women</li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <h3><a>Contact Us</a></h3>
+
+          <p>First floor, Shinde Complex, Plot11, Shinde Nagar, Pashan-NDA
+            Road, Bavdhan, Pune-411021, Maharashtra, India</p>
+          <span>Tel: 9960249131</span>
+          <br>
+          <span>Send us a mail:</span>
+          <br>
+          <span> <a href="mailto:shivanandzunjare2000@gmail.com">shivanandzunjare2000@gmail.com</a></span>
+        </div>
+
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
