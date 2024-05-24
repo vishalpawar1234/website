@@ -399,6 +399,8 @@ ul{
 .gridIndustry{
     display: grid;
     grid-template-columns: auto auto ;
+            padding: 20px;
+        background-color: #f2ededbd;
     margin-left: -40px;
 
 }
