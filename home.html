@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title></title>
-    <script defer src="home.js"></script>
       <style type="text/css">
         
          </style>
@@ -30,7 +29,11 @@
            <div class="dropdown">
             <button class="dropbtn" id="aboutUs">About Us
             </button>
-          
+            <script>
+              document.getElementById("aboutUs").addEventListener("click",function(){
+                window.location.href = "home.html";
+              })
+            </script>
             <div class="dropdown-content">
               <a href="overwive.html">Overview</a>
               <a href="Awards.html">Awards & Recognition</a>
@@ -42,7 +45,11 @@
          <div class="dropdown">
             <button class="dropbtn" id="CAREERS">Careers 
             </button>
-           
+            <script>
+              document.getElementById("CAREERS").addEventListener("click",function(){
+                window.location.href = "CAREERS.html";
+              })
+            </script>
             <div class="dropdown-content">
               <a href="#">Overview</a>
               <a href="#">Current Openings</a>
@@ -59,12 +66,50 @@
 
          <a href="javascript:void(0);" style="font-size:13px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-      
+       <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        
+     function toggleSearch() {
+  var searchInput = document.getElementById("searchInput");
+  var searchIcon = document.getElementById("searchIcon");
+  var cancelButton = document.getElementById("cancelButton");
+  // searchInput.style.display="block";
+  if (searchInput.style.display === "block") {
+    searchInput.style.display = "none";
+    searchIcon.className ="fa fa-search";
+    cancelButton.style.display = "none";
+   
+  } else {
+    searchInput.style.display = "block";
+    searchIcon.className ="fa fa-times";
+    cancelButton.style.display = "inline-block";
+  }
+}
+
+function cancelSearch(){
+  var searchInput = document.getElementById("searchInput");
+  var searchIcon = document.getElementById("searchIcon");
+  var cancelButton = document.getElementById("cancelButton");
+
+  searchInput.value ="";
+  searchInput.style.display="none";
+  searchIcon.className ="fa fa-search";
+  cancelButton.style.display = "none";
+
+}
+    </script>
 </header>
   <div class="row">
         <div class="aboutUs">
-            <h1 align="center">About Us</span></h1>
-            <p align="center">Finite 4 was established in 2008 with a view to provide best in class, cost effective, and efficient 
+            <h1>About Us</span></h1>
+            <p>Finite 4 was established in 2008 with a view to provide best in class, cost effective, and efficient 
 Engineering services globally.We provide services to clients in India, Europe, Asia-Pacific, Africa, USA and many soon.
 The agility of Finite 4 in adopting the new technology & creating expertise has helped it to grow significantly even during the 
 economic slowdown.The growth of company during the period of last few years has been 6 times that of the market's growth.</p>
@@ -279,4 +324,3 @@ document.querySelector('.more-button').addEventListener('click', function() {
 </section>
 </body>
 </html>
-
