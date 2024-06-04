@@ -1,4 +1,4 @@
-body{
+ body{
     font-family: Poppins, sans-serif;
      margin: 0;
     padding: 0;
@@ -331,12 +331,12 @@ word-wrap: break-word;
 padding-left: 10%;
 padding-right: 10%;
 font-size: 18px;
-border-bottom: 5px solid rgba(203, 203, 205, 0.267);
-
+ 
 }
 .row h1{
 margin-top: 20px;
 margin-left: -47;
+padding-left: 136px;
 
 }
 .padding {
@@ -522,11 +522,15 @@ fill: none;
     .top img {
         margin-left: 10px;
     }
-
+    .row h1 {
+      margin-top: 20px;
+      margin-left: -98px;
+      padding-left: 136px;
+  }
     .vistion_miistion {
       padding: 0px;
-      margin-left:  10px;
-      margin-top: 70px;
+      margin-left:  23px;
+      margin-top: 37px;
       font-size: -1.3333333333rem;
       display: block;
       float: left;
@@ -563,7 +567,7 @@ fill: none;
   margin-top: 59px;
 }
 .lt {
-margin-left: 203px;
+margin-left: 170px;
 margin-top: -198px;
 }
 .Indian-Navy {
@@ -571,7 +575,7 @@ margin-top: 143px;
 margin-left: 52px;
 }
 .Drdo {
-margin-left: 211px;
+margin-left: 175px;
 margin-top: -196px;
 }
 
@@ -581,8 +585,8 @@ margin-top: -196px;
     }
 
     .aboutUs {
-        margin-left: -9px;
-        width: 90%;
+        margin-left: 0px;
+        width: 100%;
     }
     .about_button{
       margin-left: 110px;
@@ -742,8 +746,8 @@ padding-top: 15px;
 .Anniual_Reiw {
 padding: 0px;
 
-margin-left: 220px;
-margin-top: -157px;
+margin-left: 230px;
+margin-top: -160px;
 font-size: -1.3333333333rem;
 display: block;
 float: left;
@@ -762,7 +766,7 @@ margin-left: 10px;
 /* Footer Started */
 
 footer{
-  margin-top: 1%;
+  margin-top: 0%;
   text-align: center;
   left: 0;
   height: 400px;
@@ -871,4 +875,3 @@ text-align: left;
 }
 }
 /* Footer Ended */
-
