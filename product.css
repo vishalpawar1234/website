@@ -46,7 +46,9 @@ section {
     font-weight:lighter;
     height: 105px;
     margin-top: 36px;
-    padding-left: 0px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
     color: #555;
     background-color: #f6f6f6;
 }
